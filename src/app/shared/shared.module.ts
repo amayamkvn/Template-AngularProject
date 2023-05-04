@@ -8,6 +8,7 @@ import { MainMenuitemComponent } from './components/main-menuitem/main-menuitem.
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { MenuModule } from 'primeng/menu';
+import { PrimengModule } from './primeng/primeng.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MenuModule } from 'primeng/menu';
     CommonModule, 
     MenuModule, 
     ButtonModule, 
-    InputTextModule
+    InputTextModule,
+    PrimengModule
   ],
   exports: [
     MainTopbarComponent,

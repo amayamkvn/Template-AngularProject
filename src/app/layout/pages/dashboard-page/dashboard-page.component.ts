@@ -40,7 +40,7 @@ export class DashboardPageComponent implements OnDestroy {
 
   async ngOnInit() {
     //this.primengConfig.ripple = true;
-    document.documentElement.style.fontSize = '14px';
+    document.documentElement.style.fontSize = '13px';
    // await this._authService.getProfile();
   }
 
